@@ -19,6 +19,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Boxicons CSS */}
+        <link
+          href="https://cdn.boxicons.com/3.0.7/fonts/basic/boxicons.min.css"
+          rel="stylesheet"
+        />
+        <link
+          href="https://cdn.boxicons.com/3.0.7/fonts/brands/boxicons-brands.min.css"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
