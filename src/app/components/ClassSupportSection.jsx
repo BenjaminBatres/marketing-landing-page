@@ -28,7 +28,7 @@ export default function ClassSupportSection() {
     },
   ];
   return (
-    <section className="py-20 px-3">
+    <section className="py-10 sm:py-20 px-3">
       <SectionIntro
         title={"Best-in-class support"}
         subtitle={"Convenience and licensing that empowers"}

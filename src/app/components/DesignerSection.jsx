@@ -29,7 +29,7 @@ export default function DesignerSection() {
     },
   ];
   return (
-    <section className="py-20 px-3">
+    <section className="py-10 sm:py-20 px-3">
       <SectionIntro
         title={"High quality images"}
         subtitle={"For designers, by designers"}

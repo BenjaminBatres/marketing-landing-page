@@ -9,7 +9,7 @@ export default function InboxSection() {
     "Regular doses or artistic inspiration",
   ];
   return (
-    <section className="sm:py-20 px-3">
+    <section className="py-10 sm:py-20 px-3">
       <div className="max-w-360 mx-auto">
         <div className="flex flex-col laptop:flex-row gap-5 laptop:gap-15">
           <div className="laptop:flex-1/2 laptop:pr-10  laptop:py-20">

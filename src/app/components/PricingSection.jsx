@@ -43,7 +43,7 @@ export default function PricingSection() {
 
     ] 
   return (
-    <section id="pricing" className="py-30 px-3">
+    <section id="pricing" className="py-20 sm:py-30 px-3">
       <SectionIntro
         title={"Pricing Tiers"}
         subtitle={"Fit for all your needs"}

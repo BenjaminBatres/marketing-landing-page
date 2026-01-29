@@ -14,11 +14,11 @@ export default function ContactSection() {
     { icon: <HiOutlineMail />, info: "hello@abstactly.com" },
   ];
   return (
-    <section id="contact" className="py-30 px-3">
+    <section id="contact" className="py-20 sm:py-30 px-3">
       <div className="max-w-360 mx-auto">
         <div className="flex flex-col laptop:flex-row">
           <div className=" lg:flex-1/2 pr-10 py-8">
-            <div className="text-5xl font-semibold mb-3">Talk to our team</div>
+            <div className="text-4xl sm:text-5xl font-semibold mb-3">Talk to our team</div>
             <p className="text-black/70 max-w-lg mb-10">
               We're committed to delivering the support you require to make your
               experience as smooth as possible.

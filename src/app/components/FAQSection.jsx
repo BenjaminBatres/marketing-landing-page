@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import SectionIntro from "./SectionIntro";
 import CollapseCard from "./ui/CollapseCard";
 
 export default function FAQSection() {
   return (
-    <section className="py-20 px-3">
+    <section className="py-10 sm:py-20 px-3">
       <SectionIntro
         subtitle={"Frequently asked questions"}
         para={"Choose any questions you need"}

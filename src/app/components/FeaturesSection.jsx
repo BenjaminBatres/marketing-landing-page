@@ -48,7 +48,7 @@ export default function FeaturesSection() {
     },
   ];
   return (
-    <section id="features" className="py-20 px-3">
+    <section id="features" className="py-10 sm:py-20 px-3">
       <SectionIntro
         title={"Premium abstract images"}
         subtitle={"Easy access to top quality images"}
